@@ -1,0 +1,12 @@
+apply plugin id 'java'
+apply plugin id 'application'
+
+repositories {
+    MavenCentral()
+}
+
+dependencies {
+
+}
+
+application.mainClassName = 'shakedcohen.bytecodeexploring.App'
